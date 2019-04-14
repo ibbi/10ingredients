@@ -18,7 +18,11 @@ class IngredientMain extends React.Component {
     }
     render() {
         return (
-            <div className='IngredientMainButton' onClick={this.toggleSelected}>{this.props.children}</div>
+            <div className='IngredientMainButton' onClick={this.toggleSelected}>
+                <p className='ingName'>
+                    {this.props.children}
+                </p>
+            </div>
         )
     }
 }

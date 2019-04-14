@@ -1,4 +1,15 @@
 .IngredientMainButton {
-    background-color: blue;
-    color: red;
+    background-color: yellow;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    cursor: pointer;
+}
+.ingName {
+    writing-mode: vertical-rl;
+    font-size: 30px;
 }
