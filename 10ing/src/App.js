@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import IngredientMain from './components/IngredientMain';
+import IngredientMainList from './components/IngredientMainList';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <IngredientMain />
+        <IngredientMainList />
       </div>
     );
   }
